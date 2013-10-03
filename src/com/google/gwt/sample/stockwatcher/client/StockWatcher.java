@@ -247,9 +247,9 @@ public class StockWatcher implements EntryPoint {
 		stocksFlexTable.removeRow(removedIndex + 1);
 	}
 
-	private void refreshWatchList() {
+	private void refreshWatchList() {	
 		final double MAX_PRICE = 50.0; // $100.00
-		final double MAX_PRICE_CHANGE = 0.1; // +/- 10%
+		final double MAX_PRICE_CHANGE = 0.05; // +/- 2%
 
 		StockPrice[] prices = new StockPrice[stocks.size()];
 		for (int i = 0; i < stocks.size(); i++) {
