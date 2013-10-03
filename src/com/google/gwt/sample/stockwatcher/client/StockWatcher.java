@@ -101,7 +101,7 @@ public class StockWatcher implements EntryPoint {
 		
 		loadStocks();
 
-		stocksFlexTable.setCellPadding(6);
+		stocksFlexTable.setCellPadding(20);
 
 		// Assemble Add Stock panel.
 		addPanel.add(newSymbolTextBox);
