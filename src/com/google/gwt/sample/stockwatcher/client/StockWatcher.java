@@ -248,7 +248,7 @@ public class StockWatcher implements EntryPoint {
 	}
 
 	private void refreshWatchList() {
-		final double MAX_PRICE = 100.0; // $100.00
+		final double MAX_PRICE = 50.0; // $100.00
 		final double MAX_PRICE_CHANGE = 0.02; // +/- 2%
 
 		StockPrice[] prices = new StockPrice[stocks.size()];
